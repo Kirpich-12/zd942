@@ -8,10 +8,10 @@ krs_1 = 0
 
 for i in range(1, len(data_split)):
     krs_5 += int(data_split[i]) + krs_5
-for i in range(len(data)-1, 1, -1):
-    krs_3 += int(data[i]) + krs_3
-    print(data[i])
-for i in range(1, len(data)):
+for i in range(len(data_split)-1, 1, -1):
+    krs_3 += int(data_split[i]) + krs_3
+    print(data_split[i])
+for i in range(1, len(data_split)):
     data_for_1 = data.sort()
     print(data_for_1)
     print(data)
